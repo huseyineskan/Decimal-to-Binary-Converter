@@ -3,6 +3,7 @@ const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
 const decimalToBinary = (input) => {
+<<<<<<< HEAD
   const inputs = [];
   const quotients = [];
   const remainders = [];
@@ -24,6 +25,9 @@ const decimalToBinary = (input) => {
   console.log("Remainders: ", remainders);
 
   result.innerText = remainders.reverse().join("");
+=======
+  
+>>>>>>> 2a94029e581412e83351b426c7fe3b9259d2a09f
 };
 
 const checkUserInput = () => {
@@ -46,4 +50,8 @@ numberInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     checkUserInput();
   }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 2a94029e581412e83351b426c7fe3b9259d2a09f
