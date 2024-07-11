@@ -9,3 +9,4 @@ In this project, we build a decimal-to-binary converter using JavaScript. we lea
 ### Features
 - Decimal to Binary Converter
 - This project will only convert positive numbers into binary.
+- We show the process with animations.
